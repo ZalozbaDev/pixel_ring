@@ -9,4 +9,5 @@ from pixel_ring import pixel_ring
 
 if __name__ == '__main__':
 	pixel_ring.trace()
-	pixel_ring.set_color_palette(0xFF0000, 0x00FF00)
+	# first color = active, second color = inactive 
+	pixel_ring.set_color_palette(0x400000, 0x000000)
